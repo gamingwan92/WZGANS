@@ -428,7 +428,7 @@ let found = false
 for (let lmt of _healt) {
 if (lmt.id === sender) {
 const healthCounts = healtawal - lmt.healt
-if (healthCounts <= 0) return Ryuu.sendMessage(from,`Limit request anda sudah habis\n\n_Note : Limit akan direset setiap jam 21:00!_`, text,{ quoted: mek})
+if (healthCounts <= 0) return Ryuu.sendMessage(from,`Limit request anda sudah habis\n\n_Note : Limit akan direset setiap jam 00:00!_`, text,{ quoted: mek})
 if (!isPetualang) return reply(mess.only.player)
  reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 pp = monospace(`╭─ 🌱 Profile User
@@ -668,7 +668,7 @@ participant: `0@s.whatsapp.net`, ...(from ?
 },
 message: { 
 "videoMessage": { 
-"title": `Atsair Botz🐧`,
+"title": `WZ Botz🐧`,
 "h": `${tampilUcapan} ${pushname}`,
 'duration': '99999', 
 'caption': `${tampilUcapan} ${pushname}`,
@@ -1412,7 +1412,7 @@ Ryuu.sendMessage(_.jid,
 "footerText": `${tampilTanggal}`, 
 "buttons": [
 {"buttonId": `${prefix}owner`,
-"buttonText": {"displayText": "ATSAIR GANTENG 😅☝️"
+"buttonText": {"displayText": "WZ BOT"
 },"type": "RESPONSE"}
 ], "headerType": 'LOCATION',
 locationMessage: { degreesLatitude: '',
